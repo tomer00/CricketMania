@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface MatchRepo extends JpaRepository<StoredMatch,Integer> {
-
+public interface RepoMatch extends JpaRepository<StoredMatch,Integer> {
 
 }

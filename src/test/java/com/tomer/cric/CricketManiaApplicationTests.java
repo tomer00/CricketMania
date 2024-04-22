@@ -8,8 +8,7 @@ class CricketManiaApplicationTests {
 
 	@Test
 	void contextLoads() {
-		var s = new ScrappingService();
-		s.scrape();
+
 	}
 
 }

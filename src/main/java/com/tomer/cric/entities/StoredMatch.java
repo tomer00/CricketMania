@@ -16,5 +16,11 @@ public class StoredMatch {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer matchId;
 
+    private String homeTeam, awayTeam;
+    private String title;
+    private String homeTeamScore, awayTeamScore;
+    private String link;
+    private String outcome;
+
 
 }
